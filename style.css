@@ -1,0 +1,47 @@
+.titulo{
+    text-align: center;
+}
+.contenedor{
+    margin-top: 0px;
+    background-color: white;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+body{
+    background-color: lightgrey;
+    margin: 0px;
+    padding: 0px;
+}
+.post{
+    background-color: white;
+    margin-top: 100px;
+    width: 550px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.contenedor-post{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.contenedor-img > img{
+    max-width: 100%;
+}
+p,h1{
+    margin: 0px;
+}
+.contenedor-p{
+    padding: 10px;
+}
+.contenedor-iconos{
+padding: 10px;
+}
+.iconos{
+    display: flex;
+    justify-content: space-between;
+}
